@@ -93,7 +93,7 @@ else:
 node = node.right
 return node.predicted_class
 
-#fit the data into the classifier and predicting
+#fit the data to the classifier and predicting
 clf = DecisionTreeClassifier(max_depth=2)
 clf.fit(X_train, Y_train)
 clf.predict(X_test, Y_test)
