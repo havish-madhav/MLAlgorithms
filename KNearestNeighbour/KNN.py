@@ -20,7 +20,7 @@ def euclideanDistance(instance1, instance2, length):
 		distance += pow((instance1[x] - instance2[x]), 2)
 	return math.sqrt(distance)
 
-#applying KNN Algorithm
+#Applying KNN Algorithm
 def KNearestNeighbour(trainingSet, testInstance, k):
     distances = {}
     length = testInstance.shape[1]
